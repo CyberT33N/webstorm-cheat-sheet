@@ -94,4 +94,7 @@ _________________________________________________
 
 ## Conditional Breakpoints
 - Right-click on a breakpoint to configure its behavior: for instance, you can add a condition so that the execution will only be stopped when that condition is met.
+
+<br>
+
 ![Conditional Breakpoints](https://www.jetbrains.com/webstorm/guide/static/263243bc708d14f99c09d16001069900/2a4de/tip.png)
