@@ -28,6 +28,59 @@ webstorm cheat sheet with the most needed stuff..
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+_________________________________________________
+_________________________________________________
+<br><br>
+
+
+
+# Configurations
+- You can create Configurations for a lot of stuff like Unit Testing, NPM Scripts and much more..
+- If you create any Run Configurations for your Project then they will get saved to the *.idea* folder
+
+<br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br><br>
 _________________________________________________
 _________________________________________________
