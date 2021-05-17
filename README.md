@@ -151,3 +151,84 @@ _________________________________________________
 <br>
 
 ![Conditional Breakpoints](https://www.jetbrains.com/webstorm/guide/static/263243bc708d14f99c09d16001069900/2a4de/tip.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+_________________________________________________
+_________________________________________________
+<br><br>
+
+
+# Known Problems
+
+<br><br>
+
+## global search does not show all results
+- Click File -> Invalidate Caches / Restart..
+  - Click the button "Invalidate and Restart"
+    - After restart, try run the search again
+
