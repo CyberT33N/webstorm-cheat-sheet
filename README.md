@@ -9,6 +9,11 @@ webstorm cheat sheet with the most needed stuff..
 - Right click on project > Git > Resolve Conflicts 
 
 
+<br><br>
+
+# Resolve perfomance problems
+- File > Invalidate Caches
+
 
 
 
