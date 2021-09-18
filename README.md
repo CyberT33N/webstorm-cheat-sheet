@@ -13,6 +13,7 @@ webstorm cheat sheet with the most needed stuff..
 
 # Resolve perfomance problems
 - File > Invalidate Caches
+- Delete .idea folder from project
 
 
 
