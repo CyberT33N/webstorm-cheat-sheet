@@ -42,6 +42,48 @@ webstorm cheat sheet with the most needed stuff..
 
 
 
+<br><br>
+_________________________________________________
+_________________________________________________
+<br><br>
+
+
+# Uninstall Webstorm
+
+<br><br>
+
+
+## Standalone
+
+<br><br>
+
+#### Linux
+- You do not have to delete the standalone folder but you must remove the config files:
+```bash
+sudo rm -rf ~/.config/JetBrains
+sudo rm -rf ~/.cache/JetBrains
+sudo rm -rf ~/.local/share/JetBrains
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
