@@ -280,3 +280,15 @@ _________________________________________________
   - Click the button "Invalidate and Restart"
     - After restart, try run the search again
 
+<br><br>
+
+## node not found (nvm)
+- Now if IDE is launched from a terminal, environment variables are loaded correctly.
+However, environment variables mismatch occurs if IDE is launched from Desktop or System menu. The problem is that IDE sees environment variables configured in ~/.profile (login shell), but not in interactive shell configuration files (like, ~/.bashrc).
+
+The real problem is that some tools alter interactive shell configuration files only during their installation phase.
+E.g. NVM https://github.com/creationix/nvm/blob/v0.28.0/install.sh#L126
+
+Workaround 1: make required variables available in a login shell (i.e. for Bash, move them from .bashrc to .bash_profile or .profile), then restart X session (logout/login).
+Workaround 2: run IDE from a terminal
+Workaround 3: edit IDE desktop launcher and set command to /bin/bash -l -i -c  "/path/to/webstorm.sh"
