@@ -275,6 +275,11 @@ _________________________________________________
 
 <br><br>
 
+## National Keyboard Layout not working
+- Settings > Keymap > Enable at bottom Box "Use national layout for shortcuts"
+
+<br><br>
+
 ## global search does not show all results
 - Click File -> Invalidate Caches / Restart..
   - Click the button "Invalidate and Restart"
