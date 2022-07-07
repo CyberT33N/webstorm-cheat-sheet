@@ -1,13 +1,10 @@
-# webstorm-cheat-sheet
+# webstorm-cheat-sheet (https://www.jetbrains.com/de-de/webstorm/)
 webstorm cheat sheet with the most needed stuff..
 
 
 
+<br><br>
 
-
-
-
-bstorm (https://www.jetbrains.com/de-de/webstorm/)
 
 ## Plugins
 - Monokai Pro Theme(https://plugins.jetbrains.com/plugin/13643-monokai-pro-theme)
