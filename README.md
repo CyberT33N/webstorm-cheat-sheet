@@ -3,6 +3,170 @@ webstorm cheat sheet with the most needed stuff..
 
 
 
+
+
+
+
+bstorm (https://www.jetbrains.com/de-de/webstorm/)
+
+## Plugins
+- Monokai Pro Theme(https://plugins.jetbrains.com/plugin/13643-monokai-pro-theme)
+- Atom Material Icons
+- Tabnine
+- CodeGlance (Minimap)
+- Pokemon Progress
+- Activate-power-mode (https://plugins.jetbrains.com/plugin/14000-activate-power-mode-x)
+- Power Mode II
+- Rainbow Brackets
+- Sexy Editor (https://plugins.jetbrains.com/plugin/1833-sexy-editor)
+- Anime Memes (https://plugins.jetbrains.com/plugin/15865-anime-memes)
+- Rainbow Fart (https://plugins.jetbrains.com/plugin/14543-rainbow-fart)
+- Fancy music (https://plugins.jetbrains.com/plugin/13231-fancy-music)
+- Key Promoter X (https://plugins.jetbrains.com/plugin/9792-key-promoter-x)
+
+<br><br>
+
+## Increae search limit results from 100 to xxxx
+- In 2021.2 the limit is configurable in Settings | Advanced Settings | Maximum number of results to show in Find In Path/Show Usages preview.
+
+
+<br><br>
+
+## Enable Zoom with CTRL + Mouse Wheel
+- In the Settings/Preferences dialog Ctrl+Alt+S, select Editor | General. Make sure that the setting Change font size (Zoom) with Ctrl+MouseWheel is enabled.
+
+<br><br>
+
+## Add Unit Tests Sidebar
+- Edit Configuration (top right)
+<br> -> Choose Mocha package
+<br> -> User Interface: **bdd**
+<br> -> Extra Mocha options: **--recursive --exit --timeout 30000**
+<br> -> File Patterns: **./test/*.test.js**
+
+
+
+
+
+
+<br><br> <br><br>
+
+## Enable auto render of JSDoc
+- open the Settings/Preferences dialog Ctrl+Alt+S, go to Editor | General | Appearance, and select the Render documentation comments checkbox.
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br>
+
+## Fonts
+
+<br><br>
+
+#### Change Fonts
+- File > Settings > Editor > Font
+
+<br><br>
+
+#### Bold Fonts
+- File > Settings > Color Scheme > General > Text > Default Text > Bold
+- You can to File > Settings > Color Scheme > Javascript to change as example function params to bold too
+
+
+
+
+<br><br>
+
+## disable auto indent
+- In  File | Settings | Editor | General | Smart Keys you need to disable Smart indent (this should help for cases when "CLion still sometimes inserts tabs when i dont press TAB key") and set Reformat on paste to None (this should help for cases when "CLion deletes tabs from lines that i paste"):
+
+
+<br><br>
+
+
+## Create Desktop Shortcut
+- Tools > Create Desktop Entry
+
+<br><br>
+
+
+## Import Color Scheme
+- File > Settings > Editor > Color Scheme > Settings Wheel Icon > Import Scheme
+- You can import .xml or .icls
+- https://www.jetbrains.com/help/webstorm/settings-colors-and-fonts.html
+
+<br><br>
+
+## Sublime Syntax Color Scheme
+- https://gist.github.com/CyberT33N/ef2ae6684f29734ba2263d07fe1548e7 **FINAL almost like atom v2**
+- https://gist.github.com/CyberT33N/a3905f0b9da8cebb42d03998d79b6a5f **FINAL almost like atom**
+- 
+- https://plugins.jetbrains.com/plugin/12773-onedarkmonokai
+- https://github.com/darekkay/config-files/blob/master/intellij-idea/config/colors/dk-monokai.icls
+
+
+<br><br>
+<br><br>
+
+## Soft Wraps
+- Preferences/Settings | Editor | General > Soft-wrap files (https://www.jetbrains.com/webstorm/guide/tips/soft-wraps/)
+
+
+<br><br>
+
+## Eslint
+- File > Settings > Search: eslint
+
+<br><br>
+
+## Vertical Line Indentation
+- Go to Settings/Editor/General/Appearance and select **Show indent guides** to enable this feature in IntelliJ. (https://i.stack.imgur.com/NsoJV.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+ _____________________________________________________
+ _____________________________________________________
+
 <br><br>
 
 # Resolve merge conflicts
